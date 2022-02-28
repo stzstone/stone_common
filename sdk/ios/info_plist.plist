@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIdentifierPrefix</key>
+	<string>$(AppIdentifierPrefix)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>sundaytoz</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>[__STZ_SCHEME__]</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>[__STZ_SCHEME__]</string>
+		<string>kakao87875691141501057</string>
+		<string>stzkakaoanipang2</string>
+		<string>stzkakaoanipang3</string>
+		<string>stzkakaosachun</string>
+		<string>stzkakaoshanghai</string>
+		<string>stzkakaotouch</string>
+		<string>stzkakaosnoopy</string>
+		<string>stzgbsnoopy</string>
+		<string>stzgbeusnoopy</string>
+		<string>stzkakaowbb</string>
+		<string>stzstovewbb</string>
+		<string>stzstoveeuwbb</string>
+		<string>stzkakaojoy</string>
+		<string>stzkrjoy</string>
+		<string>line3rdp.com.sundaytoz.line.joy</string>
+		<string>stzkakaoanipang4</string>
+		<string>LGPPGS</string>
+	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>[__STZ_PHOTO_LIBRARY_ADD_DESC__]</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>[__STZ_PHOTO_LIBRARY_DESC__]</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>[__STZ_LOCATION_WHEN_IN_USE_USAGE_DESC__]</string>
+	<key>NSLocationAlwaysAndWhenInUsageDescription</key>
+	<string>[__STZ_LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESC__]</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>[__STZ_TRACKING_USAGE_DESC__]</string>
+</dict>
+</plist>

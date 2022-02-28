@@ -1,0 +1,17 @@
+{
+    "frameworks": 	[
+    					"CoreTelephony.framework",
+    					"Security.framework",
+    					"AuthenticationServices.framework",
+						"iAd.framework",
+    					"AdSupport.framework",
+    					"AppTrackingTransparency.framework"
+    				],
+	"buildSettings":	
+	[
+		"GCC_ENABLE_OBJC_EXCEPTIONS:YES",
+		"CLANG_ENABLE_MODULES:YES",
+		"ENABLE_BITCODE:NO",
+		"USYM_UPLOAD_AUTH_TOKEN:FakeToken"
+	]
+}

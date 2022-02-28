@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6d586e3-8927-47cc-8081-979c18adb5e7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62C96DBD-401D-40AB-BCA7-E6220795B778/df/20eccd0e/IOSResolver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozPluginiOS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCallData_Init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/NetworkHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45F4A4D4-E370-4AD1-8C35-F098B00F14E7/e2/97b12f35/EPlatformType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/IStzNativeDeviceData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/TestBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Common/StzNativeCommon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Plist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozResponseHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92218043-4747-44EA-9D64-D27064C35DCB/96/49d7f85f/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/StzCommonUnityPluginBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/AppDependencies.xml" />
+        <option value="$PROJECT_DIR$/Assets/Editor/StzCommonUnityPluginBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/AppDependencies.xml" />
+        <option value="$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" />
+        <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozResponseHandler.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="25VRAp5F2l3jq50F93EHxdmWfUI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6d586e3-8927-47cc-8081-979c18adb5e7" name="Default Changelist" comment="" />
+      <created>1645610126493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645610126493</updated>
+      <workItem from="1645610129577" duration="360000" />
+      <workItem from="1645668620565" duration="2079000" />
+      <workItem from="1645671442452" duration="519000" />
+      <workItem from="1645680815031" duration="74000" />
+      <workItem from="1645683320420" duration="158000" />
+      <workItem from="1645685536680" duration="771000" />
+      <workItem from="1645687466123" duration="269000" />
+      <workItem from="1645689303322" duration="217000" />
+      <workItem from="1645689714895" duration="194000" />
+      <workItem from="1645751488398" duration="991000" />
+      <workItem from="1646019716200" duration="3470000" />
+      <workItem from="1646029445971" duration="3670000" />
+      <workItem from="1646035778132" duration="1521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1407" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645610355975">
+      <screen x="0" y="25" width="2560" height="1325" />
+    </state>
+    <state x="1407" y="517" key="#com.intellij.fileTypes.FileTypeChooser/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1645610355975" />
+    <state x="-2425" y="25" width="2041" height="1306" key="dock-window-1" timestamp="1646036233576">
+      <screen x="-2560" y="25" width="2560" height="1415" />
+    </state>
+    <state x="-2425" y="25" width="2041" height="1306" key="dock-window-1/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1646036233576" />
+    <state x="1387" y="25" width="1173" height="1324" key="dock-window-2" timestamp="1646036233576">
+      <screen x="0" y="25" width="2560" height="1325" />
+    </state>
+    <state x="1387" y="25" width="1173" height="1324" key="dock-window-2/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1646036233576" />
+    <state x="917" y="320" width="725" height="735" key="find.popup" timestamp="1645687066987">
+      <screen x="0" y="25" width="2560" height="1325" />
+    </state>
+    <state x="917" y="320" width="725" height="735" key="find.popup/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1645687066987" />
+    <state x="943" y="325" width="672" height="160" key="search.everywhere.popup" timestamp="1645751838133">
+      <screen x="0" y="25" width="2560" height="1325" />
+    </state>
+    <state x="943" y="325" width="672" height="160" key="search.everywhere.popup/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1645751838133" />
+  </component>
+</project>

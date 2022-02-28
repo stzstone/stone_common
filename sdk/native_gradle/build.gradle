@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+        maven{  url "https://maven.google.com"  }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//gradle.projectsEvaluated {
+//    tasks.generateReleaseBuildConfig.enabled = false
+//}
+//
+task deleteOldJar(type: Delete) {
+    delete 'release/classes.jar'
+}
+
+task exportJar(type: Copy) {
+    print 'hello export jar'
+    assert file('app/build/intermediates/packaged-classes/debug/classes.jar').exists()
+    from('app/build/intermediates/packaged-classes/debug/classes.jar')
+    //into('../')
+    into('../../unity-sample/Assets/Plugins/Android/')
+    rename('classes.jar', 'src.jar')
+}

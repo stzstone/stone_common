@@ -1,0 +1,13 @@
+namespace STZ_Common
+{
+    [System.Serializable]
+    public class StzNativeCallData_Base
+	{
+        public string action = string.Empty;
+
+        public override string ToString()
+        {
+            return "action: " + action;
+        }
+    }
+}

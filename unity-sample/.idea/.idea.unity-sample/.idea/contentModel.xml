@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_unity-sample.-1158080095.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="__Sample" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="__Internal" t="Include">
+              <e p="ApiTestEditor.cs" t="Include" />
+              <e p="ButtonBlock.cs" t="Include" />
+              <e p="GroupButtonBlock.cs" t="Include" />
+              <e p="InputFieldBlock.cs" t="Include" />
+              <e p="OutputText.cs" t="Include" />
+              <e p="TestBase.cs" t="Include" />
+            </e>
+            <e p="Main.cs" t="Include" />
+            <e p="NetworkHelper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="AppDependencies.xml" t="Include" />
+          <e p="Plist.cs" t="Include" />
+          <e p="StzCommonUnityPluginBuilder.cs" t="Include" />
+        </e>
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="external-dependency-manager_version-1.2.169_manifest.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Stz" t="Include">
+          <e p="Plugins" t="Include">
+            <e p="StzPluginEditorCore" t="Include">
+              <e p="DLL_StzLogConnector" t="Include">
+                <e p="Connector.cs" t="Include" />
+                <e p="LogPrinter.cs" t="Include" />
+                <e p="StzLogConnector.cs" t="Include" />
+              </e>
+              <e p="DLL_StzPluginExtension" t="Include">
+                <e p="CacheController.cs" t="Include" />
+                <e p="CheckMachine.cs" t="Include" />
+                <e p="InnerExtension.cs" t="Include" />
+                <e p="StzPluginExtension.cs" t="Include" />
+              </e>
+              <e p="DLL_StzServiceExtension" t="Include">
+                <e p="Checker.cs" t="Include" />
+                <e p="ExceptionHandler.cs" t="Include" />
+                <e p="StzServiceExtension.cs" t="Include" />
+              </e>
+            </e>
+            <e p="StzPluginLogger.cs" t="Include" />
+          </e>
+        </e>
+        <e p="StzCommon_Codes" t="Include">
+          <e p="Call" t="Include">
+            <e p="StzNativeCall.cs" t="Include" />
+            <e p="StzNativeCallData_AddLocalNotification.cs" t="Include" />
+            <e p="StzNativeCallData_Base.cs" t="Include" />
+            <e p="StzNativeCallData_CancelLocalNotification.cs" t="Include" />
+            <e p="StzNativeCallData_GetPermissionGrantType.cs" t="Include" />
+            <e p="StzNativeCallData_GetSharedValue.cs" t="Include" />
+            <e p="StzNativeCallData_Init.cs" t="Include" />
+            <e p="StzNativeCallData_IsInstalled.cs" t="Include" />
+            <e p="StzNativeCallData_LoginAppleAccount.cs" t="Include" />
+            <e p="StzNativeCallData_RequestPermissions.cs" t="Include" />
+            <e p="StzNativeCallData_SendEmail.cs" t="Include" />
+            <e p="StzNativeCallData_SetKeychainValue.cs" t="Include" />
+            <e p="StzNativeCallData_SetReservedWord.cs" t="Include" />
+            <e p="StzNativeCallData_SetSharedValue.cs" t="Include" />
+            <e p="StzNativeCallData_SetTextToClipboard.cs" t="Include" />
+            <e p="StzNativeCallData_SetUUID.cs" t="Include" />
+            <e p="StzNativeCallData_ShowAlert.cs" t="Include" />
+          </e>
+          <e p="Common" t="Include">
+            <e p="StzNativeCommon.cs" t="Include" />
+          </e>
+          <e p="Enums" t="Include">
+            <e p="EAppleAccountStatus.cs" t="Include" />
+            <e p="EATTrackingManagerAuthorizationStatus.cs" t="Include" />
+            <e p="EInAppUpdate.cs" t="Include" />
+            <e p="ELocalNotificationType.cs" t="Include" />
+            <e p="ENetworkType.cs" t="Include" />
+            <e p="EPermissionGrantType.cs" t="Include" />
+            <e p="EPermissionResponseType.cs" t="Include" />
+          </e>
+          <e p="IAppleAccountData.cs" t="Include" />
+          <e p="IStzNativeDeviceData.cs" t="Include" />
+          <e p="ISundaytozNativeExtension.cs" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="StzNativeException.cs" t="Include" />
+            <e p="StzNativeResult" t="Include">
+              <e p="StzNativeAppleAccountData.cs" t="Include" />
+              <e p="StzNativeDeviceData.cs" t="Include" />
+              <e p="StzNativeResult_AllUngrantedPermissions.cs" t="Include" />
+              <e p="StzNativeResult_Base.cs" t="Include" />
+              <e p="StzNativeResult_DeepLink.cs" t="Include" />
+              <e p="StzNativeResult_FreeStorageSize.cs" t="Include" />
+              <e p="StzNativeResult_GetAttStatus.cs" t="Include" />
+              <e p="StzNativeResult_GetIDFA.cs" t="Include" />
+              <e p="StzNativeResult_InAppUpdate.cs" t="Include" />
+              <e p="StzNativeResult_InAppUpdateDownloaded.cs" t="Include" />
+              <e p="StzNativeResult_Installed.cs" t="Include" />
+              <e p="StzNativeResult_InstallStateUpdate.cs" t="Include" />
+              <e p="StzNativeResult_KeychainValue.cs" t="Include" />
+              <e p="StzNativeResult_Language.cs" t="Include" />
+              <e p="StzNativeResult_LoginAppleAccount.cs" t="Include" />
+              <e p="StzNativeResult_Network.cs" t="Include" />
+              <e p="StzNativeResult_PermissionGrantType.cs" t="Include" />
+              <e p="StzNativeResult_PushId.cs" t="Include" />
+              <e p="StzNativeResult_RequestAtt.cs" t="Include" />
+              <e p="StzNativeResult_RequestPermissions.cs" t="Include" />
+              <e p="StzNativeResult_SendEmail.cs" t="Include" />
+              <e p="StzNativeResult_ShemeData.cs" t="Include" />
+              <e p="StzNativeResult_ShowAlert.cs" t="Include" />
+              <e p="StzNativeResult_StartUpdateFlow.cs" t="Include" />
+              <e p="StzNativeResult_STimer.cs" t="Include" />
+              <e p="StzNativeResultStringUtil.cs" t="Include" />
+            </e>
+            <e p="SundaytozNativeExtension.cs" t="Include" />
+            <e p="SundaytozPluginAndroid.cs" t="Include" />
+            <e p="SundaytozPluginBase.cs" t="Include" />
+            <e p="SundaytozPluginForUnityEditor.cs" t="Include" />
+            <e p="SundaytozPluginiOS.cs" t="Include" />
+            <e p="SundaytozResponseHandler.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="unity-sample.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

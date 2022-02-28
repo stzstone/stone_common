@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_notif_text">#ff004071</color>
+    <color name="color_notif_title">#ff762a00</color>
+</resources>

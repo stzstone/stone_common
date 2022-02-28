@@ -1,0 +1,5 @@
+<linker>
+  <assembly fullname="StzCommon_AOS">
+    <type fullname="StzCommon.*" preserve="all"/>
+  </assembly>
+</linker>

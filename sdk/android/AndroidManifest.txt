@@ -1,0 +1,29 @@
+application :
+<receiver android:name="com.sundaytoz.plugins.common.receivers.NotificationReceiver" android:process=":remote" />
+<meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true"/>
+<meta-data android:name="android.allow_multiple_resumed_activities" android:value="true" />
+
+mainActivity :
+<!-- STZ Scheme -->
+<intent-filter>
+<action android:name="android.intent.action.VIEW" />
+<category android:name="android.intent.category.DEFAULT" />
+<category android:name="android.intent.category.BROWSABLE" />
+<data android:scheme="[__STZ_SCHEME__]" />
+</intent-filter>
+<intent-filter>
+<action android:name="android.intent.action.VIEW" />
+<category android:name="android.intent.category.DEFAULT" />
+<category android:name="android.intent.category.BROWSABLE" />
+<data android:scheme="[__STZ_SCHEME__]" android:host="sundaytoz" />
+</intent-filter>
+
+uses-permission :
+android.permission.INTERNET
+android.permission.ACCESS_NETWORK_STATE
+android.permission.FOREGROUND_SERVICE
+
+uses-feature :
+android.hardware.touchscreen : false
+android.hardware.touchscreen.multitouch : false
+android.hardware.touchscreen.multitouch.distinct : false

@@ -1,0 +1,2 @@
+androidx.legacy:legacy-support-v4:1.0.0
+com.google.android.play:core:1.6.5

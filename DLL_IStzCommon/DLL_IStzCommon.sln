@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL_IStzCommon", "DLL_IStzCommon\DLL_IStzCommon.csproj", "{EE5F33CD-7338-477B-A10F-5C91DEB43050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Unity2018|Any CPU = Unity2018|Any CPU
+		Unity2019|Any CPU = Unity2019|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE5F33CD-7338-477B-A10F-5C91DEB43050}.Unity2018|Any CPU.ActiveCfg = Unity2018|Any CPU
+		{EE5F33CD-7338-477B-A10F-5C91DEB43050}.Unity2018|Any CPU.Build.0 = Unity2018|Any CPU
+		{EE5F33CD-7338-477B-A10F-5C91DEB43050}.Unity2019|Any CPU.ActiveCfg = Unity2019|Any CPU
+		{EE5F33CD-7338-477B-A10F-5C91DEB43050}.Unity2019|Any CPU.Build.0 = Unity2019|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {058E4DB8-03F4-422C-B7FC-B9A45168C6CB}
+	EndGlobalSection
+EndGlobal

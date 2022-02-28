@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE5F33CD-7338-477B-A10F-5C91DEB43050}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IStzCommon</RootNamespace>
+    <AssemblyName>IStzCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <!-- PROJECT SETTING | Unity 2018 -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unity2018|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\2018\</OutputPath>
+    <DefineConstants>TRACE;UNITY_2018</DefineConstants>
+  </PropertyGroup>
+  <!-- PROJECT SETTING | Unity 2019 -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unity2019|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\2019\</OutputPath>
+    <DefineConstants>TRACE;UNITY_2019</DefineConstants>
+  </PropertyGroup>
+  <Choose>
+    <!-- REFERENCE | Unity 2018 -->
+    <When Condition=" '$(Configuration)' == 'Unity2018' ">
+      <ItemGroup>
+        <Reference Include="StzEnums">
+          <HintPath>..\..\_DLL\Unity2018\StzEnums.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <!-- REFERENCE | Unity 2019 -->
+    <When Condition=" '$(Configuration)' == 'Unity2019' " />
+  </Choose>
+  <ItemGroup>
+    <Reference Include="StzEnums, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\unity-sample\Assets\Stz\Plugins\StzEnums.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EAppleAccountStatus.cs" />
+    <Compile Include="EInAppUpdate.cs" />
+    <Compile Include="IAppleAccountData.cs" />
+    <Compile Include="IStzNativeDeviceData.cs" />
+    <Compile Include="ISundaytozNativeExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
