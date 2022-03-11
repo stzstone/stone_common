@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/__Sample/Scenes/test-plugin.unity
+  isLoaded: 1
+  isActive: 1

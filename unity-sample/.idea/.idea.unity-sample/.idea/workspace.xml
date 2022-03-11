@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d586e3-8927-47cc-8081-979c18adb5e7" name="Default Changelist" comment="" />
+    <list default="true" id="f6d586e3-8927-47cc-8081-979c18adb5e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/5/549784c1d2f9a2575f7fe5570232ab95.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/d/d5506d4f38df3c9cfbb5125b95ef612a.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/11d343-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/11d343-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,33 +49,38 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62C96DBD-401D-40AB-BCA7-E6220795B778/df/20eccd0e/IOSResolver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozPluginiOS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCallData_Init.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/NetworkHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45F4A4D4-E370-4AD1-8C35-F098B00F14E7/e2/97b12f35/EPlatformType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/IStzNativeDeviceData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/TestBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Common/StzNativeCommon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/Plist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62C96DBD-401D-40AB-BCA7-E6220795B778/df/20eccd0e/IOSResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozResponseHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92218043-4747-44EA-9D64-D27064C35DCB/96/49d7f85f/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/TestBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCallData_Init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozPluginiOS.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92218043-4747-44EA-9D64-D27064C35DCB/511/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozPluginForUnityEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45F4A4D4-E370-4AD1-8C35-F098B00F14E7/e2/97b12f35/EPlatformType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Enums/ENetworkType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Plist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Common/StzNativeCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/StzCommonUnityPluginBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92218043-4747-44EA-9D64-D27064C35DCB/96/49d7f85f/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Enums/EPermissionGrantType.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/ExternalDependencyManager/Editor/AppDependencies.xml" />
         <option value="$PROJECT_DIR$/Assets/Editor/StzCommonUnityPluginBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/AppDependencies.xml" />
         <option value="$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" />
         <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozResponseHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +136,8 @@
       <workItem from="1645751488398" duration="991000" />
       <workItem from="1646019716200" duration="3470000" />
       <workItem from="1646029445971" duration="3670000" />
-      <workItem from="1646035778132" duration="1521000" />
+      <workItem from="1646035778132" duration="1921000" />
+      <workItem from="1646967432732" duration="49000" />
     </task>
     <servers />
   </component>
@@ -102,6 +146,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -110,10 +166,10 @@
       <screen x="0" y="25" width="2560" height="1325" />
     </state>
     <state x="1407" y="517" key="#com.intellij.fileTypes.FileTypeChooser/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1645610355975" />
-    <state x="-2425" y="25" width="2041" height="1306" key="dock-window-1" timestamp="1646036233576">
+    <state x="-2145" y="25" width="2041" height="1306" key="dock-window-1" timestamp="1646967481722">
       <screen x="-2560" y="25" width="2560" height="1415" />
     </state>
-    <state x="-2425" y="25" width="2041" height="1306" key="dock-window-1/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1646036233576" />
+    <state x="-2145" y="25" width="2041" height="1306" key="dock-window-1/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1646967481722" />
     <state x="1387" y="25" width="1173" height="1324" key="dock-window-2" timestamp="1646036233576">
       <screen x="0" y="25" width="2560" height="1325" />
     </state>
