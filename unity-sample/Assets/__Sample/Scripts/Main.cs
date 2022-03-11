@@ -27,19 +27,12 @@ public class Main : MonoBehaviour
 
         SundaytozNativeExtension.Instance.Initialize((success) =>
         {			
-            MakeUI();
+            FuncList.MakeUI();
 #if UNITY_ANDROID && !UNITY_EDITOR
 			SundaytozNativeExtension.OnChangedNetworkStatus += InstanceOnOnChangedNetworkStatus;
 #endif
 
         }, "com.sundaytoz.kakao.joy.SundaytozNativeActivity", platform);
     }
-
-
-
-    private void MakeUI()
-    {
-        
-        
-    }
+    
 }

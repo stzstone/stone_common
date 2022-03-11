@@ -68,6 +68,8 @@
   <ItemGroup>
     <Compile Include="Assets\__Sample\Scripts\__Internal\ApiTestEditor.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\ButtonBlock.cs" />
+    <Compile Include="Assets\__Sample\Scripts\__Internal\FuncList.cs" />
+    <Compile Include="Assets\__Sample\Scripts\__Internal\FuncResponse.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\GroupButtonBlock.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\InputFieldBlock.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\OutputText.cs" />

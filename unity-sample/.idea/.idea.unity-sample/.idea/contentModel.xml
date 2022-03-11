@@ -12,6 +12,8 @@
             <e p="__Internal" t="Include">
               <e p="ApiTestEditor.cs" t="Include" />
               <e p="ButtonBlock.cs" t="Include" />
+              <e p="FuncList.cs" t="Include" />
+              <e p="FuncResponse.cs" t="Include" />
               <e p="GroupButtonBlock.cs" t="Include" />
               <e p="InputFieldBlock.cs" t="Include" />
               <e p="OutputText.cs" t="Include" />

@@ -996,7 +996,7 @@ namespace Sundaytoz
             return _instance._inputFields.ContainsKey(inKey) ? _instance._inputFields[inKey].text : string.Empty;
         }
         
-        public static void UpdateUI()
+        public void UpdateUI()
         {
             _instance.ResetUI();
         }
