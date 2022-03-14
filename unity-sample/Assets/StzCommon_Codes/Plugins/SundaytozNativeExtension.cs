@@ -1263,8 +1263,28 @@ public class SundaytozNativeExtension : ISundaytozNativeExtension
     //     StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "End");
     // }
     
-    public void SendEmail()
+    public Action SendEmail()
+    {
+        SundaytozResponseHandler.Instance.SendRequest<StzNativeResult_SendEmail>(call, (result) =>
+        {
+            
+            StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"Begin");
+            if (result == null)
+            {
+                StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"result is null");
+                onResponseCallback?.Invoke(false);
+                return;
+            }
+            onResponseCallback?.Invoke(result.Success);
+        });
+        
+        StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "End");
+        return null;
+    }
+
+    public void doAction(Action action)
     {
         
     }
+
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 public interface IPoolable
@@ -5,12 +6,12 @@ public interface IPoolable
     void Dispose();
 }
  
-public class STZq<T> : IPoolable
+public class STZq<Action> : IPoolable
 {
     object lockObj = new object();
-    Queue<T> queue = new Queue<T>();
+    Queue<Action> queue = new Queue<Action>();
  
-    public void Push(T item)
+    public void Push(Action item)
     {
         lock (lockObj)
         {
@@ -18,11 +19,12 @@ public class STZq<T> : IPoolable
         }
     }
  
-    public T Pop()
+    public void Pop()
     {
         lock (lockObj)
         {
-            return queue.Dequeue();
+            Action action = queue.Dequeue();
+            SundaytozNativeExtension.doAction(action);
         }
     }
  
@@ -37,7 +39,7 @@ public class STZq<T> : IPoolable
         }
     }
  
-    public T Get()
+    public Action Get()
     {
         lock (lockObj)
         {
