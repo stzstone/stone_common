@@ -23,16 +23,53 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-sample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/11d343-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/11d343-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/0f/0fdf8b801912e4323a8986ef1d431519" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/0f/0fdf8b801912e4323a8986ef1d431519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/26/2632a154cfd0942fdb23b430af2ddf46" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/26/2632a154cfd0942fdb23b430af2ddf46" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2d/2de49c07463da494490a66734396f692" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2d/2de49c07463da494490a66734396f692" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b4/b45fd9b06755346e6a2c20f194218c82" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b4/b45fd9b06755346e6a2c20f194218c82" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/d0/d07b3382999c5ae40b2e8c561fd255c7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d0/d07b3382999c5ae40b2e8c561fd255c7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-00dc30ba9fc8f468dac0295fb467c68a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-0d6641c7b4979412f8a83277fc325ffe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-24078fd84f56f499a8daeb7dbde13b6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-2b37d5374275b435b86a1cc736e1580a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-3d5a517a9fdb941bf9c3a139aadaa8f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-402236b19c534428bbab25d996688c9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-41ddddc7a803044cc8fae830edd3a6d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4536f5704126e48ae958aa5b0a7caf0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5bc7a6925f69f460cb9e1a0e57c17693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5e3ef6d8c2010474781f6c1d6efd1207" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-5fc4c90f792c549db9eb20ee5c92e323" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-64f3fd6a914c64e8c931c53d7b954f8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7011edc27a8eb42fcb11f749dce49a78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7fd55d4b87cc04820b89b37fe419dfd4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-810d308bca14f439796bb6ff15a800a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-98a546e1915b24fe9b07c516b524f536" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9e506d49802b94001ad96ddcbbb0133f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a06c5c2e5c7364a9eaf987fded6f23ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a1778ebba30144076b71842c85ca452e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-a37a2c02e6b6548c881005086f3d74e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-bf84dd1b0c3da4c4189c438de295fd6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c87462c77cbef4fe4806ba561dea02e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c8eccc463c5ad4915a0047c48be61782" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-d8ccbe6a83569431a8bb46909aae2736" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e894bc800ec394b7f90c1ff6c350fa5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f14361927f32d466298e719a2fc81fa7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f22f69291a6904c95b390393ec7b8c84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-f726ecca1f8214f3d9983fd3b9eb40aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,26 +81,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/NetworkHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/TestBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF5F45F9-036E-4C62-A663-0FF0AD516D88/3c/f9f5449c/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92218043-4747-44EA-9D64-D27064C35DCB/511/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45F4A4D4-E370-4AD1-8C35-F098B00F14E7/e2/97b12f35/EPlatformType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/STZq.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/IStzNativeDeviceData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62C96DBD-401D-40AB-BCA7-E6220795B778/df/20eccd0e/IOSResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozResponseHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/TestBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCallData_Init.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF5F45F9-036E-4C62-A663-0FF0AD516D88/3c/f9f5449c/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozPluginiOS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92218043-4747-44EA-9D64-D27064C35DCB/511/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozPluginForUnityEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45F4A4D4-E370-4AD1-8C35-F098B00F14E7/e2/97b12f35/EPlatformType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92218043-4747-44EA-9D64-D27064C35DCB/c3/b8594eb8/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Enums/ENetworkType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Plist.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Call/StzNativeCall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StzCommon_Codes/Common/StzNativeCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/StzCommonUnityPluginBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/92218043-4747-44EA-9D64-D27064C35DCB/96/49d7f85f/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,11 +115,13 @@
         <option value="$PROJECT_DIR$/Assets/Editor/StzCommonUnityPluginBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/AppDependencies.xml" />
         <option value="$PROJECT_DIR$/Assets/Stz/Plugins/StzPluginLogger.cs" />
-        <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozResponseHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncResponse.cs" />
         <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/ApiTestEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncList.cs" />
         <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/STZq.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Sample/Scripts/__Internal/FuncList.cs" />
+        <option value="$PROJECT_DIR$/Assets/StzCommon_Codes/Plugins/SundaytozNativeExtension.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +179,12 @@
       <workItem from="1646029445971" duration="3670000" />
       <workItem from="1646035778132" duration="1921000" />
       <workItem from="1646967432732" duration="49000" />
+      <workItem from="1646989663995" duration="798000" />
+      <workItem from="1646990569274" duration="1495000" />
+      <workItem from="1647220228435" duration="234000" />
+      <workItem from="1647221863894" duration="3514000" />
+      <workItem from="1647234854231" duration="83000" />
+      <workItem from="1647248787794" duration="1554000" />
     </task>
     <servers />
   </component>
@@ -178,9 +225,9 @@
       <screen x="0" y="25" width="2560" height="1325" />
     </state>
     <state x="917" y="320" width="725" height="735" key="find.popup/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1645687066987" />
-    <state x="943" y="325" width="672" height="160" key="search.everywhere.popup" timestamp="1645751838133">
+    <state x="943" y="325" width="672" height="160" key="search.everywhere.popup" timestamp="1647225039518">
       <screen x="0" y="25" width="2560" height="1325" />
     </state>
-    <state x="943" y="325" width="672" height="160" key="search.everywhere.popup/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1645751838133" />
+    <state x="943" y="325" width="672" height="160" key="search.everywhere.popup/-2560.25.2560.1415/0.25.2560.1325@0.25.2560.1325" timestamp="1647225039518" />
   </component>
 </project>

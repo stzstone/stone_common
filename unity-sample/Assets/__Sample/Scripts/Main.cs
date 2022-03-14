@@ -28,6 +28,7 @@ public class Main : MonoBehaviour
         SundaytozNativeExtension.Instance.Initialize((success) =>
         {			
             FuncList.MakeUI();
+            
 #if UNITY_ANDROID && !UNITY_EDITOR
 			SundaytozNativeExtension.OnChangedNetworkStatus += InstanceOnOnChangedNetworkStatus;
 #endif

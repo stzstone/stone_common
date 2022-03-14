@@ -73,6 +73,7 @@
     <Compile Include="Assets\__Sample\Scripts\__Internal\GroupButtonBlock.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\InputFieldBlock.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\OutputText.cs" />
+    <Compile Include="Assets\__Sample\Scripts\__Internal\STZq.cs" />
     <Compile Include="Assets\__Sample\Scripts\__Internal\TestBase.cs" />
     <Compile Include="Assets\__Sample\Scripts\Main.cs" />
     <Compile Include="Assets\__Sample\Scripts\NetworkHelper.cs" />

@@ -17,6 +17,7 @@
               <e p="GroupButtonBlock.cs" t="Include" />
               <e p="InputFieldBlock.cs" t="Include" />
               <e p="OutputText.cs" t="Include" />
+              <e p="STZq.cs" t="Include" />
               <e p="TestBase.cs" t="Include" />
             </e>
             <e p="Main.cs" t="Include" />

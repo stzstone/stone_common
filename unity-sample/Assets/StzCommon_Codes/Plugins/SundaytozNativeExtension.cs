@@ -10,7 +10,7 @@ using StzNativeExtention;
 public class SundaytozNativeExtension : ISundaytozNativeExtension
 {
     public static string Version { get { return "0.10.0"; } }
-
+    
     //----------------------------------------------------------------
     // delegate
     //----------------------------------------------------------------
@@ -1234,31 +1234,37 @@ public class SundaytozNativeExtension : ISundaytozNativeExtension
         }
     }
     
-    public void SendEmail(Action<bool> onResponseCallback, string receiverAddress, string title, string content)
+    // public void SendEmail(Action<bool> onResponseCallback, string receiverAddress, string title, string content)
+    // {
+    //     StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "Begin");
+    //
+    //     var call = new StzNativeCall<StzNativeCallData_SendEmail>(new StzNativeCallData_SendEmail()
+    //     {
+    //         action       = EStzNativeAction.SEND_EMAIL.ToString(),
+    //         receiver_address = receiverAddress,
+    //         title =  title,
+    //         body = content
+    //
+    //     });
+    //     
+    //     SundaytozResponseHandler.Instance.SendRequest<StzNativeResult_SendEmail>(call, (result) =>
+    //     {
+    //         
+    //         StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"Begin");
+    //         if (result == null)
+    //         {
+    //             StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"result is null");
+    //             onResponseCallback?.Invoke(false);
+    //             return;
+    //         }
+    //         onResponseCallback?.Invoke(result.Success);
+    //     });
+    //     
+    //     StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "End");
+    // }
+    
+    public void SendEmail()
     {
-        StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "Begin");
-
-        var call = new StzNativeCall<StzNativeCallData_SendEmail>(new StzNativeCallData_SendEmail()
-        {
-            action       = EStzNativeAction.SEND_EMAIL.ToString(),
-            receiver_address = receiverAddress,
-            title =  title,
-            body = content
-
-        });
         
-        SundaytozResponseHandler.Instance.SendRequest<StzNativeResult_SendEmail>(call, (result) =>
-        {
-            StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"Begin");
-            if (result == null)
-            {
-                StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"result is null");
-                onResponseCallback?.Invoke(false);
-                return;
-            }
-            onResponseCallback?.Invoke(result.Success);
-        });
-        
-        StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "End");
     }
 }
