@@ -6,7 +6,7 @@ using Sundaytoz;
 
 public static class FuncList
 {
-	public static STZq<Action> FuncList_queue = new STZq<Action>();
+	static STZq<String> stzq = new STZq<string>();
 	
 	public static void MakeUI()
 	{
@@ -19,9 +19,10 @@ public static class FuncList
 				SundaytozNativeExtension.Instance.SendEmail(
 					(isSuccess) => { Debug.Log($"Main::SendEmail()->isSuccess:{isSuccess}"); },
 					"jongwoo.park@sundaytoz.com", "title", "content"))*/
-			
+
 			.SetDataAction("Send Email", () =>
-				FuncList_queue.Push(SundaytozNativeExtension.Instance.SendEmail())
+				
+				stzq.Push("SendEmail")
 					)
 
 			.SetDataAction("Add Local Notification",

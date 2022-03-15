@@ -2,9 +2,11 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using STZ_Common;
 using StzEnums;
 using StzNativeExtention;
+using Object = System.Object;
 
 [STZGSP.STZPluginInfo(pluginName = "StzCommon", version = "0.10.0")]
 public class SundaytozNativeExtension : ISundaytozNativeExtension
@@ -1263,8 +1265,17 @@ public class SundaytozNativeExtension : ISundaytozNativeExtension
     //     StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "End");
     // }
     
-    public Action SendEmail()
+    public bool SendEmail()
     {
+        var call = new StzNativeCall<StzNativeCallData_SendEmail>(new StzNativeCallData_SendEmail()
+        {
+            action = EStzNativeAction.SEND_EMAIL.ToString(),
+            receiver_address = "seungyeol.son@sundaytoz.com",
+            title = "title",
+            body = "content"
+        });
+        
+        
         SundaytozResponseHandler.Instance.SendRequest<StzNativeResult_SendEmail>(call, (result) =>
         {
             
@@ -1272,19 +1283,19 @@ public class SundaytozNativeExtension : ISundaytozNativeExtension
             if (result == null)
             {
                 StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"result is null");
-                onResponseCallback?.Invoke(false);
                 return;
             }
-            onResponseCallback?.Invoke(result.Success);
+            
         });
-        
-        StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", "End");
-        return null;
+        return true;
     }
 
-    public void doAction(Action action)
+    public bool sendFunction(String dequeue)
     {
-        
+        Type thisType = this.GetType();
+        MethodInfo theMethod = thisType.GetMethod(dequeue);
+        Object abc = theMethod?.Invoke(this,null);
+        return (bool) abc;
     }
 
 }

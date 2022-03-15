@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/seungyeol.son/Desktop/Building/stzcommon
+/Users/seungyeol.son/Desktop/Building/iOS/stzcommon
 SceneListBegin?
 Assets/__Sample/Scenes/test-plugin.unity
 SceneListEnd?
