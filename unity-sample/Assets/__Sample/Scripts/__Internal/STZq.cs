@@ -3,38 +3,40 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-public interface IPoolable
-{
-    void Dispose();
-}
- 
-public class STZq<String>: IPoolable
+
+public static class STZq
 {
     
-    object lockObj = new object();
-    Queue<String> queue = new Queue<String>(); 
-    
-    public void Pop()
+    static object lockObj = new object();
+    static Queue<String> queue = new Queue<String>();
+    private static bool flag = false;
+    public static void Pop()
     {
-        
         lock (lockObj)
         {
+            flag = true;
             string temp_string = queue.Dequeue().ToString();
-            SundaytozNativeExtension.Instance.sendFunction(temp_string);
-           
-            
+            StzPluginLogger.Verbose("STZq", "STZq", temp_string + "Listening", "Start");
+            if (SundaytozNativeExtension.Instance.sendFunction(temp_string) == true)
+            {
+                StzPluginLogger.Verbose("STZq", "STZq", temp_string + "Listening", "Succeeded");
+                FuncResponse.Instance.sendFunction(temp_string);
+            }
+
+            flag = false;
         }
+        tryPop();
     }
-    public void Push(String item)
+    public static void Push(string item)
     {
         lock (lockObj)
         {
             queue.Enqueue(item);
         }
-        this.Pop();
+        tryPop();
     }
 
-    public int Count
+    public static int Count
     {
         get
         {
@@ -45,7 +47,7 @@ public class STZq<String>: IPoolable
         }
     }
  
-    public String Get()
+    public static String Get()
     {
         lock (lockObj)
         {
@@ -53,15 +55,23 @@ public class STZq<String>: IPoolable
         }
     }
  
-    public void Clear()
+    public static void Clear()
     {
         lock (lockObj)
         {
             queue.Clear();
         }
     }
- 
-    public void Dispose()
+
+    public static void tryPop()
+    {
+        if (flag!=true&&queue.Count!=0)
+        {
+            Pop();
+        }
+    }
+
+    public static void Dispose()
     {
     }
 }

@@ -1,12 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Reflection;
 using StzEnums;
 using UnityEngine;
 using Sundaytoz;
+using Object = System.Object;
 
 public class FuncResponse
 {
+	private FuncResponse() {}
+	private static FuncResponse _instance = null;
+	public  static FuncResponse Instance  
+	{
+		get
+		{ 
+			StzPluginLogger.RegisterColor("StzNativeExtension", "#569CD6");
+			return _instance ?? (_instance = new FuncResponse()); 
+		}
+	}
+	
    private void OnResponseFreeSpaceMb(bool isSuccess, int freeSpaceMb)
 	{
 		ApiTestEditor.Log($"Main::OnResponseFreeSpaceMb()->isSuccess:{isSuccess}, freeSpaceMb:{freeSpaceMb}");
@@ -748,4 +761,16 @@ public class FuncResponse
 // 				return;
 // 			});
 // 	}
+	public void SendEmail()
+	{
+		
+	}
+
+	public void sendFunction(String dequeue)
+	{
+		Type thisType = this.GetType();
+		MethodInfo theMethod = thisType.GetMethod(dequeue);
+		theMethod?.Invoke(this,null);
+		
+	}
 }

@@ -103,7 +103,7 @@ public class SundaytozNativeExtension : ISundaytozNativeExtension
             action = EStzNativeAction.INITIALIZE.ToString(),
             main_activity_name = mainActivityClassName,
         });
-
+        
         SundaytozResponseHandler.Instance.SendRequest<StzNativeDeviceData>(call, (result) =>
         {
             IsInited    = true;
@@ -1285,7 +1285,6 @@ public class SundaytozNativeExtension : ISundaytozNativeExtension
                 StzPluginLogger.Verbose("StzNativeExtension", "StzNativeExtension", "SendEmail", $"result is null");
                 return;
             }
-            
         });
         return true;
     }

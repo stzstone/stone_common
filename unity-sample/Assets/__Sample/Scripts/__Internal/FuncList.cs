@@ -6,8 +6,6 @@ using Sundaytoz;
 
 public static class FuncList
 {
-	static STZq<String> stzq = new STZq<string>();
-	
 	public static void MakeUI()
 	{
 		Debug.Log("Main::MakeUI()->1");
@@ -15,16 +13,9 @@ public static class FuncList
 		permissions.Add("android.permission.WRITE_EXTERNAL_STORAGE");
 		ApiTestEditor _apiTestEditor = ApiTestEditor.Begin("NativeExtension");
 		_apiTestEditor
-			/*.SetDataAction("Send Email", () =>
-				SundaytozNativeExtension.Instance.SendEmail(
-					(isSuccess) => { Debug.Log($"Main::SendEmail()->isSuccess:{isSuccess}"); },
-					"jongwoo.park@sundaytoz.com", "title", "content"))*/
-
 			.SetDataAction("Send Email", () =>
-				
-				stzq.Push("SendEmail")
-					)
-
+			STZq.Push( "SendEmail"))
+			
 			.SetDataAction("Add Local Notification",
 				() => SundaytozNativeExtension.Instance.AddLocalNotification(
 					(success) => { ApiTestEditor.Log($"Main::AddLocalNotification()->success:{success}"); }, 1, 5,

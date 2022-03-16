@@ -23,10 +23,9 @@ public class Main : MonoBehaviour
 #elif UNITY_EDITOR
         platform = EPlatformType.UnityEditor;
 #endif
-        Debug.Log($"Main::Initialize()->version:{Application.version}");
-
         SundaytozNativeExtension.Instance.Initialize((success) =>
         {			
+            Debug.Log($"Main::Initialize()->version:{Application.version}");
             FuncList.MakeUI();
             
 #if UNITY_ANDROID && !UNITY_EDITOR

@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/seungyeol.son/Desktop/Building/Android/test1.apk
+/Users/seungyeol.son/Desktop/Building/Android
 SceneListBegin?
 Assets/__Sample/Scenes/test-plugin.unity
 SceneListEnd?

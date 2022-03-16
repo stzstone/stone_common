@@ -175,7 +175,7 @@ public class SundaytozResponseHandler : MonoBehaviour
             };
             _responseHandle = t;
         }
-
+        
         _plugin.request(call);
     }
 
